@@ -1,0 +1,99 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio
+.gradle/
+/.idea/vcs.xml
+local.gradle
+
+# IntelliJ
+*.ipr
+*.iws
+*.idea/
+
+# Kotlin
+*.kotlin_metadata
+*.kotlin_module
+*.main.kts
+
+# Firebase
+google-services.json
+
+# Gradle
+/build/
+/out/
+!gradle-wrapper.jar
+/gradle/
+build/
+
+# Other
+/.gradle
+#NDK
+.externalNativeBuild/
+.cxx/
+# Ignore Android Studio and emulators config folders
+/.idea/
+.idea/
+# Ignore the file system root of this project
+.env
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Folder config file for an Android Studio project
+.settings/
+
+# Ignore specific configuration
+.local.properties
+
+# Ignore IntelliJ and Android Studio specific files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/.name
+.idea/.idea.log
+.idea/.code.style.schemes
+.idea/.fe7
+.idea/.idea.modules
+.idea/.idea.*
+.idea/vcs.xml
+.idea/.gradle
+.idea/.gradle.*
+.idea/gradle/
+.idea/gradle.*
+.idea/code.style.schemes/
+.idea/code.style.schemes
+.idea/compiler.xml
+
+# Android-specific files
+captures/
+output.json
+
+# Proguard files
+proguard/
+/*.keystore
+
+# Exclude any jar files or folders with jar files
+libs/*.jar
+**/*.jar
+
+# Keystore files
+*.jks
+*.keystore
+*private*
+*debug*
